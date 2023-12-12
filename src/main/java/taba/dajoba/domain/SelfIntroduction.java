@@ -61,4 +61,10 @@ public class SelfIntroduction {
 
     //==조회 메서드==//
     //repository에 작성
+
+    //시그널값 변경
+    public void updateSignal(){
+        this.signal = 1;
+    }
+
 }

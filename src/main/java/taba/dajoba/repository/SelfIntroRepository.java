@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import taba.dajoba.domain.QSelfIntroduction;
 import taba.dajoba.domain.QUser;
 import taba.dajoba.domain.SelfIntroduction;
+import taba.dajoba.domain.User;
 
 import javax.persistence.EntityManager;
 import java.util.List;
@@ -54,9 +55,4 @@ public class SelfIntroRepository {
                 .fetch();
     }
 
-    /*//==자소서 수정==//
-    public Long selfIntroUpdate(String fixedIntroName, String introContent, DesireField desireField) {
-        SelfIntroduction selfIntro;
-        selfIntro.update(fixedIntroName, introContent, desireField);
-    }*/
 }
